@@ -52,5 +52,5 @@ Essa divisão facilita a manutenção e a compreensão do código, separando de 
 
 👨‍💻 João Miguel
 
-🔗 GitHub
+
 

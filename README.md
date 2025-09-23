@@ -38,15 +38,20 @@ Servindo como uma **base sólida** para projetos maiores que necessitam de **ges
 ## 📂 Arquitetura do Projeto  
 
 src/main/java/com.joaodev.cadastro-usuario
-┣ 📂 business → Regras de negócio (ex.: UsuarioService)
-┣ 📂 controller → Endpoints REST (ex.: UsuarioController)
-┣ 📂 infrastructure
-┃ ┗ 📂 entitys → Entidades do sistema (ex.: Usuario)
-┣ 📂 repository → Interfaces Spring Data JPA (ex.: UsuarioRepository)
-┗ 📜 CadastroUsuarioApplication → Classe principal para rodar a aplicação
+┣ 📂 business → Regras de negócio (ex.: UsuarioService)  
 
-yaml
-Copy code
+┣ 📂 controller → Endpoints REST (ex.: UsuarioController)  
+
+┣ 📂 infrastructure  
+
+┃ ┗ 📂 entitys → Entidades do sistema (ex.: Usuario)  
+
+┣ 📂 repository → Interfaces Spring Data JPA (ex.: UsuarioRepository)  
+
+┗ 📜 CadastroUsuarioApplication → Classe principal para rodar a aplicação  
+
+
+
 
 🔹 **Controller** → recebe as requisições HTTP e retorna respostas.  
 🔹 **Service (business)** → concentra a lógica de negócio.  
@@ -55,47 +60,40 @@ Copy code
 
 ---
 
-## ⚡ Funcionalidades  
 
-- ➕ **Cadastrar Usuário**  
-- 📋 **Listar Usuários**  
-- 🔄 **Atualizar Usuário**  
-- ❌ **Excluir Usuário**  
 
-<p align="center">
-  <img src="https://camo.githubusercontent.com/32938c5cfc76ec1c984b9a5d968aa4c815470f2b86c080699351d67434963ed0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f5a56696b377042747539644e532f67697068792e676966" width="300px" alt="CRUD gif"/>
-</p>
 
 ---
 
 ## 🚀 Como Executar  
+<p align="center">
+  <img src="https://camo.githubusercontent.com/32938c5cfc76ec1c984b9a5d968aa4c815470f2b86c080699351d67434963ed0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f5a56696b377042747539644e532f67697068792e676966" width="300px" alt="CRUD gif"/>
+</p>
+
 
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/seu-usuario/cadastro-usuario-crud.git
 Acesse a pasta do projeto e rode a aplicação com Spring Boot:
 
-bash
-Copy code
+
 mvn spring-boot:run
 Acesse o sistema no navegador:
 
-bash
-Copy code
+
 http://localhost:8080/usuarios
 Banco de dados H2 Console:
 
-bash
-Copy code
+
+
 http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:testdb
 
-User: sa
+User: sa (usuário que vem por padrão no H2, mas que pode ser alterado para um de sua escolha)
 
 Password: (em branco)
 
 ✍️ Autor
 👨‍💻 João Miguel
-🔗 LinkedIn | GitHub
 
-<p align="center"> <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="250px" alt="Spring Boot"/> </p> ```
+
